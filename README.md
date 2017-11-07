@@ -1,5 +1,8 @@
 # NanoDLP-TouchScreen
+## Modified for usage on the LittleRP Printer
+
 Nextion Screen => NodeJS => NanoDLP
+
 ![photo.jpg](photo.jpg)
 
 ## Require 
