@@ -61,6 +61,22 @@ var Home = function (_abstract) {
                   _this2.changePage("plates");
                 });
 
+                this.addListener("click_b0", (e)=>{
+                  this.changePage("/button/press/0");
+                });
+
+                this.addListener("click_b2", (e)=>{
+                  this.changePage("/button/press/1");
+                });
+
+                this.addListener("click_b4", (e)=>{
+                  this.changePage("/printer/off");
+                });
+
+                this.addListener("click_b5", (e)=>{
+                  this.changePage("/printer/restart");
+                }); 
+                
               case 7:
               case "end":
                 return _context.stop();
