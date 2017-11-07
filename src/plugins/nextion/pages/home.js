@@ -22,6 +22,22 @@ export default class Home extends abstract{
     this.addListener("click_b1", (e)=>{
       this.changePage("plates");
     });
+    
+    this.addListener("click_b0", (e)=>{
+      this.changePage("/button/press/0");
+    });
+    
+    this.addListener("click_b2", (e)=>{
+      this.changePage("/button/press/1");
+    });
+    
+    this.addListener("click_b4", (e)=>{
+      this.changePage("/printer/off");
+    });
+    
+    this.addListener("click_b5", (e)=>{
+      this.changePage("printer/restart");
+    });    
   }
   
   async update(status, log){
