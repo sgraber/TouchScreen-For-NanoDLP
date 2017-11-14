@@ -61,10 +61,10 @@ var Home = function (_abstract) {
                   _this2.changePage("plates");
                 });
 
-                this.addListener("click_c0", () => _this2.nanoDLP.command("/button/press/0"));
-                this.addListener("click_c1", () => _this2.nanoDLP.command("/button/press/1"));
-                this.addListener("click_c2", () => _this2.nanoDLP.command("/printer/off"));
-                this.addListener("click_c3", () => _this2.nanoDLP.command("printer/restart"));
+                this.addListener("click_b4", () => _this2.nanoDLP.command("/button/press/0"));
+                this.addListener("click_b5", () => _this2.nanoDLP.command("/button/press/1"));
+                this.addListener("click_b6", () => _this2.nanoDLP.command("/printer/off"));
+                this.addListener("click_b7", () => _this2.nanoDLP.command("printer/restart"));
                                 
               case 7:
               case "end":
